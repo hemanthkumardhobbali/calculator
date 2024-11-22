@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aqua;
+}
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    gap: 5px;
+
+}
+
+button {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+}
+.green {
+    background-color: rgb(55, 160, 26);
+}
+.pink{
+    background-color: rgb(188, 53, 76);
+}
